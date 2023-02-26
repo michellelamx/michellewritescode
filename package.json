@@ -10,7 +10,6 @@
     "prepare": "husky install"
   },
   "dependencies": {
-    "@next/font": "^13.2.1",
     "@swc/helpers": "^0.4.14",
     "cypress": "^10.0.3",
     "eslint-config-next": "^13.2.1",
