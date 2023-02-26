@@ -1,0 +1,56 @@
+$main-fonts: $montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+html {
+  color: #f7f7fa;
+  font: 62.5%/normal $main-fonts;
+  min-height: 100%;
+  position: relative;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 1.6rem;
+  line-height: 1.2;
+  margin: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding: 0;
+  position: relative;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+main {
+  background-color: #0a0a0a;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100vw;
+
+  .logo {
+    height: auto;
+    left: 2.5rem;
+    position: absolute;
+    top: 2.5rem;
+    width: 10rem;
+
+    img {
+      height: auto;
+      width: 10rem;
+    }
+  }
+}
+
+.container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 128rem;
+}
+
+.description {
+  color: #ffffff;
+}
