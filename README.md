@@ -14,7 +14,7 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) to see the site locally.
 
-### Renovate
+## Tools & Add-Ons
 
 [Renovate](https://github.com/marketplace/renovate) is a tool that keeps the project up-to-date with dependencies. If you’re not interested in this tooling, delete the `renovate.json` file and commit that onto your main branch.
 
