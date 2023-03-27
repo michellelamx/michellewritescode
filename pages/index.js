@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>michellelamx.com</title>
+        <title>michelle writes code</title>
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <main>
