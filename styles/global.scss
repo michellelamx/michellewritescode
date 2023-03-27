@@ -1,8 +1,7 @@
-$main-fonts: $montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
 html {
   color: #f7f7fa;
-  font: 62.5%/normal $main-fonts;
+  font: 62.5%/normal;
   min-height: 100%;
   position: relative;
   scroll-behavior: smooth;
@@ -23,7 +22,7 @@ body {
 }
 
 main {
-  background-color: #0a0a0a;
+  background: url('../assets/large-geometric.svg') bottom -3rem right -5rem / 80% no-repeat #0a0a0a;
   display: flex;
   flex-direction: column;
   min-height: 100vh;

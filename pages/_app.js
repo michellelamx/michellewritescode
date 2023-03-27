@@ -1,7 +1,17 @@
-import '@styles/main.scss'
+import { Montserrat } from 'next/font/google';
+const montserrat = Montserrat({ subsets: ['latin'] })
+import '@styles/main.scss';
 
-function Application({ Component, pageProps }) {
-  return <Component {...pageProps} />
+export default function Application({ Component, pageProps }) {
+
+  return (
+    <>
+      <style jsx global>{`
+        html {
+          font-family: ${montserrat.style.fontFamily};
+        }
+      `}</style>
+      <Component {...pageProps} />
+    </>
+  )
 }
-
-export default Application
