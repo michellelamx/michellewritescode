@@ -17,7 +17,7 @@ export default function Home() {
         </div>
         <div className='container'>
           <h2>Hi, I'm Michelle.</h2>
-          <h3>I'm a front-end developer.</h3>
+          <h3>I'm a Front-End Software Engineer.</h3>
         </div>
       </main>
     </>
