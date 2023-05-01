@@ -16,8 +16,9 @@ export default function Home() {
           />
         </div>
         <div className='container'>
-          <h2>Hi, I'm Michelle.</h2>
-          <h3>I'm a Senior UI/Frontend Software Engineer.</h3>
+          <p className='code-font'>Hi, my name is</p>
+          <h2>Michelle Lamoureaux</h2>
+          <h4>I'm a frontend/UI developer focused on making designs come to life as pixel-perfect, clean, reusable code.</h4>
         </div>
       </main>
     </>
