@@ -1,7 +1,7 @@
 import { Montserrat, Source_Code_Pro } from 'next/font/google';
 const montserrat = Montserrat({ subsets: ['latin'] })
 const sourceCodePro = Source_Code_Pro({ subsets: ['latin']})
-import '@styles/main.scss';
+import '@styles/index.scss';
 
 export default function Application({ Component, pageProps }) {
 
