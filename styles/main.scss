@@ -2,6 +2,24 @@
 
 @import 'global';
 
+main {
+  background-color: #0a0a0a;
+  // background: url('../assets/large-geometric.svg') bottom -3rem right -5rem / 80% no-repeat #0a0a0a;
+  min-height: 100vh;
+}
+
+.content-wrapper {
+  display: grid;
+  grid-template-columns: 65%;
+  margin-left: 10%;
+}
+
+header {
+  display: grid;
+  max-width: 128rem;
+  padding-bottom: 35rem;
+}
+
 .code-font {
   font-size: 1.6rem;
   margin-block: 2.4rem 0.4rem;

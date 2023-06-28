@@ -20,37 +20,3 @@ body {
 * {
   box-sizing: border-box;
 }
-
-main {
-  background: url('../assets/large-geometric.svg') bottom -3rem right -5rem / 80% no-repeat #0a0a0a;
-  min-height: 100vh;
-
-  .logo {
-    height: auto;
-    left: 2.4rem;
-    position: absolute;
-    top: 2.4rem;
-    width: 10rem;
-
-    img {
-      height: auto;
-      width: 100%;
-    }
-  }
-}
-
-// footer {
-//   height: 42rem;
-// }
-
-.container {
-  display: grid;
-  grid-template-columns: 65%;
-  margin-left: 20rem;
-}
-
-.content-wrapper {
-  display: grid;
-  max-width: 128rem;
-  padding-bottom: 42rem;
-}
