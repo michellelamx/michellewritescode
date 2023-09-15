@@ -3,21 +3,19 @@
 @import 'global';
 
 main {
-  background-color: #0a0a0a;
-  // background: url('../assets/large-geometric.svg') bottom -3rem right -5rem / 80% no-repeat #0a0a0a;
+  background: linear-gradient(0deg, rgba(4, 11, 41, 1) 0%, rgba(4, 23, 70, 1) 40%, rgba(243, 77, 195, 1) 100%);
   min-height: 100vh;
 }
 
 .content-wrapper {
   display: grid;
-  grid-template-columns: 65%;
-  margin-left: 10%;
+  grid-template-columns: 80rem;
+  place-content: center;
 }
 
 header {
   display: grid;
-  max-width: 128rem;
-  padding-bottom: 35rem;
+  padding-bottom: 3rem;
 }
 
 .code-font {
@@ -35,5 +33,25 @@ header {
   font-size: 2rem;
   font-weight: normal;
   line-height: 1.2;
-  margin-block: 0 4rem;
+  margin-block: 0;
+}
+
+.skills-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding-bottom: 8rem;
+
+  ul {
+    margin: 0;
+    padding-inline: 0;
+
+    li {
+      list-style: none;
+      padding-bottom: 0.4rem;
+
+      ul {
+        margin: 0.4rem 0 0 2rem;
+      }
+    }
+  }
 }
