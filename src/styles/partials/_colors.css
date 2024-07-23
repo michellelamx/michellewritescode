@@ -1,0 +1,11 @@
+:root {
+  --color-white: hsl(0, 0%, 100%);
+  --color-black: hsl(0, 0%, 0%);
+  --color-bg-primary: hsl(300, 5%, 12%);
+  --color-text-primary: hsl(315, 33%, 98%);
+  --color-text-secondary: hsl(300, 2%, 55%);
+  --color-accent-primary: hsl(300, 100%, 50%);
+  --color-accent-secondary: hsl(21, 100%, 50%);
+  --color-accent-tertiary: hsl(286, 100%, 41%);
+  --color-border-primary: hsl(0, 0%, 21%);
+}
