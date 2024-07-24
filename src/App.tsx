@@ -25,10 +25,6 @@ const createRouter = () => {
         //   element: <Work />,
         // },
         // {
-        //   path: 'links',
-        //   element: <Links />,
-        // },
-        // {
         //   path: 'contact',
         //   element: <Contact />,
         // },
