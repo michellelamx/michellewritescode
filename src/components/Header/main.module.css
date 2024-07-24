@@ -1,13 +1,28 @@
 
 header {
-  /* background-color:  */
+  backdrop-filter: saturate(180%) blur(2rem);
+  background-color: var(--color-header-bg);
+  font-family: var(--monospace-font);
+  height: 6rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
 
   nav.mainNav {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: center;
 
     ul {
+      display: flex;
       list-style-type: none;
       margin: 0;
       padding: 0;
+    }
+
+    li + li {
+      margin-inline-start: 2.4rem;
     }
   }
 }
