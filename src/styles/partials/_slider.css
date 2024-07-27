@@ -1,0 +1,30 @@
+.slider-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.slider-nav {
+  appearance: none;
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+  height: max-content;
+
+  svg {
+    height: 2rem;
+    width: 2rem;
+  }
+
+  &:disabled {
+    opacity: 0.5;
+    pointer-events: none;
+  }
+}
+
+.slider-content-wrapper {
+  order: 1;
+
+  @media (width < 984px) {
+    order: 2;
+  }
+}

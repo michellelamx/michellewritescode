@@ -1,0 +1,32 @@
+.sliderWrapper {
+  display: flex;
+  overflow: hidden;
+  width: 100vw;
+
+  .sliderContent {
+    align-items: center;
+    display: flex;
+
+    @media (width < 984px) {
+      align-items: start;
+    }
+  }
+
+  .sliderItem {
+    flex: 0 0 auto;
+    height: max-content;
+    margin-inline-end: 2.4rem;
+  }
+
+  .sliderNavWrapper {
+    display: flex;
+    justify-content: space-between;
+    margin: 1.4rem;
+    order: 2;
+    width: calc(100vw - 2.8rem);
+
+    @media (width < 984px) {
+      order: 1;
+    }
+  }
+}

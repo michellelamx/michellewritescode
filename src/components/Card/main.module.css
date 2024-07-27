@@ -1,0 +1,72 @@
+.cardWrapper {
+  width: 48rem;
+
+  @media (width < 984px) {
+    margin-inline: 2rem;
+    width: calc(100vw - 4rem);
+  }
+
+  .card {
+    border-radius: 0.6rem;
+    color: var(--color-text-primary);
+    display: flex;
+    line-height: 1.6;
+    flex-direction: column;
+  }
+
+  .cardQuote {
+    border: 0.4rem solid var(--color-quote-border);
+    border-radius: 1.8rem;
+    padding: 1.4rem 2rem;
+    position: relative;
+
+    &::before {
+      border-color: var(--color-quote-border) transparent;
+      border-style: solid;
+      border-width: 2rem 2rem 0;
+      bottom: -2rem;
+      content: '';
+      display: block;
+      left: 4rem;
+      position: absolute;
+      width: 0;
+    }
+
+    &::after {
+      border-color: var(--color-bg-primary) transparent;
+      border-style: solid;
+      border-width: 1.3rem 1.3rem 0;
+      bottom: -1.3rem;
+      content: '';
+      display: block;
+      left: 4.7rem;
+      position: absolute;
+    }
+
+    p {
+      font-size: 1.6rem;
+      line-height: 1.6;
+      margin: 0;
+
+      + p {
+        margin-block-start: 1.2rem;
+      }
+    }
+  }
+
+  .cardAuthor {
+    display: flex;
+    flex-direction: column;
+    margin-block-start: 2.8rem;
+    margin-inline-start: 2.4rem;
+
+    .cardName {
+      font-weight: 500;
+    }
+
+    .cardTitle,
+    .cardCompany {
+      font-size: 1.4rem;
+    }
+  }
+}

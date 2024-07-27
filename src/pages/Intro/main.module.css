@@ -1,0 +1,70 @@
+.introWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+}
+
+h1.introTitle {
+  display: flex;
+  font-size: 14rem;
+  font-weight: 900;
+  letter-spacing: -0.5rem;
+  line-height: 0.8;
+  margin: 0;
+  padding-block-end: 1.2rem;
+  text-align: center;
+}
+
+.details {
+  align-items: end;
+  display: flex;
+  flex-direction: column;
+}
+
+.introSubtitle {
+  align-self: end;
+  color: var(--color-text-secondary);
+  font-size: 2.8rem;
+}
+
+.introTagline {
+  align-self: end;
+  color: var(--color-text-secondary);
+  font-size: 1.4rem;
+}
+
+.introTextImage {
+  animation: animateTitle 35s linear infinite;
+  background-clip: text;
+  background-image: var(--bg-image);
+  background-size: 200% auto;
+  color: transparent;
+}
+
+@keyframes animateTitle {
+
+  0% {
+    background-position: bottom 35%;
+  }
+
+  25% {
+    background-position: right 25%;
+  }
+
+  50% {
+    background-position: center 50%;
+  }
+
+  75% {
+    background-position: left 25%;
+  }
+
+  100% {
+    background-position: bottom 35%;
+  }
+}

@@ -1,3 +1,5 @@
+import styles from './main.module.css'
+import cx from 'classnames'
 import { useEffect } from 'react'
 
 export const Intro = () => {
@@ -26,21 +28,21 @@ export const Intro = () => {
   })
 
   return (
-    <main className='container'>
-      <div className='intro'>
-        <h1 className='intro-title intro-text-image'>
+    <section className={styles.introWrapper} id='home'>
+      <div className={styles.intro}>
+        <h1 className={ cx(styles.introTitle, styles.introTextImage) }>
           Michelle<br />
           Lamoureaux
         </h1>
-        <div className='details'>
-          <div className='intro-subtitle'>
+        <div className={styles.details}>
+          <div className={styles.introSubtitle}>
             Frontend Engineer
           </div>
-          <div className='intro-tagline'>
-            I build pixel-perfect products that solve problems for users.
+          <div className={styles.introTagline}>
+            I build pixel-perfect products that solve problems for users
           </div>
         </div>
       </div>
-    </main>
+    </section>
   )
 }

@@ -1,40 +1,25 @@
-import { AppLayout } from '@containers/AppLayout'
+import { Header } from '@components/Header'
+import { useSmoothScroll } from '@hooks/useSmoothScroll'
+import { About } from '@pages/About'
+import { Contact } from '@pages/Contact'
+import { Hype } from '@pages/Hype'
 import { Intro } from '@pages/Intro'
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+// import { Skillsets } from '@pages/Skillsets'
+import { Work } from '@pages/Work'
 import '@styles/main.css'
 
 
-const createRouter = () => {
-
-  return createBrowserRouter([
-    {
-      path: '/',
-      element: <AppLayout />,
-      children: [
-        {
-          path: '/',
-          element: <Intro />,
-          index: true,
-        },
-        // {
-        //   path: 'skills',
-        //   element: <Skills />,
-        // },
-        // {
-        //   path: 'work',
-        //   element: <Work />,
-        // },
-        // {
-        //   path: 'contact',
-        //   element: <Contact />,
-        // },
-      ],
-    },
-  ])
-}
-
 export default function App() {
-  const router = createRouter();
+  useSmoothScroll()
 
-  return router ? <RouterProvider router={router} /> : <div className='loading-message'>Loading...</div>
+  return (
+    <main className='container'>
+      <Header />
+      <Intro />
+      <About />
+      <Hype />
+      <Work />
+      <Contact />
+    </main>
+  )
 }

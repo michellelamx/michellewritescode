@@ -1,0 +1,16 @@
+.aboutWrapper {
+
+  .aboutContent {
+    display: flex;
+    flex-direction: column;
+  }
+
+  p {
+    line-height: 1.8;
+    margin: 0;
+
+    + p {
+      padding-block-start: 2rem;
+    }
+  }
+}
