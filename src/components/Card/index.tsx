@@ -5,7 +5,6 @@ type TestimonialProps = {
   name: string;
   title: string;
   quote: string;
-  company?: string;
 }
 
 type CardProps = {
@@ -28,7 +27,6 @@ export const Card = ({
         <div className={styles.cardAuthor}>
           <div className={styles.cardName}>{testimonial.name}</div>
           <div className={styles.cardTitle}>{testimonial.title}</div>
-          <div className={styles.cardCompany}>{testimonial.company}</div>
         </div>
       </div>
     </div>

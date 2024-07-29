@@ -1,17 +1,17 @@
 :root {
   --color-white: hsl(0, 0%, 100%);
-  --color-black: hsl(0, 0%, 0%);
-  --color-bg-primary: hsl(240, 6%, 10%);
-  --color-text-primary: hsl(210, 32%, 95%);
+  --color-bg-primary: hsl(246, 32%, 13%);
+  --color-bg-secondary: hsl(244, 29%, 23%);
+  --color-bg--active: hsl(250, 33%, 25%);
+  --color-text-primary: hsl(271, 40%, 87%);
   --color-text-secondary: hsl(209, 11%, 61%);
-  --color-accent-primary: hsl(300, 100%, 50%);
-  --color-accent-secondary: hsl(174, 96%, 44%);
-  --color-accent-tertiary: hsl(267, 95%, 76%);
-  --color-accent-quaternary: hsl(28, 90%, 64%);
+  --color-accent-primary: hsl(266, 68%, 56%);
+  --color-accent-secondary: hsl(267, 95%, 76%);
+  --color-accent-tertiary: hsl(307, 100%, 50%);
   --color-border-primary: hsl(240, 5%, 18%);
-  --color-header-bg: hsla(240, 6%, 10%, 0.8);
-  --color-link-primary: hsl(0, 0%, 98%);
-  --color-link--active: hsl(174, 96%, 44%);
+  --color-header-bg: hsla(246, 32%, 13%, 0.8);
+  --color-link-primary: hsl(240, 100%, 98%);
+  --color-link--active: var(--color-accent-secondary);
   --color-page-title: var(--color-accent-tertiary);
-  --color-quote-border: hsl(0, 0%, 28%);
+  --color-quote-border: var(--color-accent-primary);
 }

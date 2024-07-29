@@ -104,6 +104,9 @@ const SliderBase = forwardRef<
       [scrollPrev, scrollNext]
     )
 
+    console.log('canScrollPrev: ', canScrollPrev)
+    console.log('canScrollNext', canScrollNext)
+
     useEffect(() => {
       if (!api || !setApi) {
         return
@@ -145,7 +148,7 @@ const SliderBase = forwardRef<
           onKeyDownCapture={handleKeyDown}
           className='slider-container'
           role='region'
-          aria-roledescription='slider'
+          aria-roledescription='card slider'
           {...props}
         >
           {children}
@@ -184,7 +187,7 @@ const SliderItem = forwardRef<
       ref={ref}
       role='group'
       className='slide-item'
-      aria-roledescription='slide'
+      aria-roledescription='single card in slide'
       {...props}
     />
   )
@@ -205,7 +208,7 @@ const SliderPrevious = forwardRef<
       onClick={scrollPrev}
       {...props}
     >
-      <ChevronLeftIcon color='hsl(174, 96%, 44%)' />
+      <ChevronLeftIcon color='hsl(267, 95%, 76%)' />
     </Button>
   )
 })
@@ -225,7 +228,7 @@ const SliderNext = forwardRef<
       onClick={scrollNext}
       {...props}
     >
-      <ChevronRightIcon color='hsl(174, 96%, 44%)' />
+      <ChevronRightIcon color='hsl(267, 95%, 76%)' />
     </Button>
   )
 })

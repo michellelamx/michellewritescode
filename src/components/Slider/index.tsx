@@ -9,22 +9,27 @@ import {
 import { testimonials } from '@data/testimonials'
 import Autoplay from 'embla-carousel-autoplay'
 import styles from './main.module.css'
+import { useRef } from 'react'
 
 
 export const Slider = () => {
+  const pluginOptions = useRef(
+    Autoplay({ delay: 3000, stopOnInteraction: true })
+  )
 
   return (
     <div className={styles.sliderWrapper}>
       <SliderBase
         opts={{
-          align: 'start',
           loop: true,
+          breakpoints: {
+            '(min-width: 984px': { align: 'center' },
+            '(max-width: 983px)': { align: 'start' }
+          }
         }}
-        plugins={[
-          Autoplay({
-            delay: 3000,
-          }),
-        ]}
+        plugins={[pluginOptions.current]}
+        onMouseEnter={pluginOptions.current.stop}
+        onMouseLeave={pluginOptions.current.reset}
       >
         <SliderContent className={styles.sliderContent}>
           {testimonials.map((testimonial, id) => (
