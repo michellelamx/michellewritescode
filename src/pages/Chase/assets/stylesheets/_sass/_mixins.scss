@@ -1,0 +1,115 @@
+@mixin at-breakpoint($viewport) {
+	
+	@if nth($viewport, 1) == small-screen {
+		$total-columns: 4;
+		$column-width: (100 /$total-columns) * 1%;
+	}
+	@else if nth($viewport, 1) == medium-screen {
+		$total-columns: 8;
+		$column-width: (100 /$total-columns) * 1%;
+	}
+	@else if nth($viewport, 1) == large-screen {
+		$total-columns: 12;
+		$column-width: (100 /$total-columns) * 1%;
+	}
+	@if length($viewport) == 2 {
+		@media (min-width: nth($viewport, 2)) {
+			@content; 
+		}
+	} 
+	@else {
+		@media (min-width: nth($viewport, 2)) and (max-width: nth($viewport, 3)) { 
+			@content; 
+		}
+	}
+}
+@mixin content-layout {
+	max-width: $content-max-width;
+	margin: 0 auto;
+	display: block;
+	text-align:left;
+}
+
+@mixin column-style {
+	@if $inner-padding != 0px {
+		padding: 0 $inner-padding;
+	}
+	float: left;
+	border-left-width: $gutter-width;
+	border-left-style: solid;
+	border-left-color: rgba(0, 0, 0, 0);
+
+	-moz-box-sizing: border-box; 
+	-webkit-box-sizing: border-box; 
+	box-sizing: border-box;
+
+	-moz-background-clip: padding;     /* Firefox 3.6 */
+	-webkit-background-clip: padding;  /* Safari 4? Chrome 6? */
+	background-clip: padding-box;      /* Firefox 4, Safari 5, Opera 10, IE 9 */
+
+	&:first-child {
+		margin-left: -$gutter-width;
+	}
+}
+
+@mixin span ($i) {
+	-moz-box-sizing: border-box; 
+	-webkit-box-sizing: border-box; 
+	box-sizing: border-box;
+
+	@if $total-columns == 1 { 
+		width: $column-width;
+	}
+	@else {
+		float: left;
+		width: (100 / ($total-columns / $i) )  * 1%;
+	}
+}
+
+/**
+ * offset span 
+ */
+@mixin offset-span ($dir, $num) {
+	margin-#{$dir}: (100 / ($total-columns / $num) )  * 1%;
+}
+/**
+ * offset span 
+ */
+@mixin offset-padding-span ($dir, $num) {
+	padding-#{$dir}: (100 / ($total-columns / $num) )  * 1%;
+}
+
+
+@mixin font-family {
+	font-family: AkzidenzGrotesk-Light, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	font-weight: $reg;
+}
+@mixin font-family-light {
+	font-family: AkzidenzGrotesk-Light, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	font-weight: $light;
+}
+@mixin font-family-semibold {
+	font-family: AkzidenzGrotesk-Md, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	font-weight: $semibold;
+}
+
+@mixin clearfix {
+	zoom:1;
+
+	&:after {
+		content: "";
+		display: block;
+		height: 0;
+		overflow: hidden;
+		float: none;
+		clear: both;
+	}
+}
+
+@mixin pxtoem($px) {
+	font-size: (round( (($px/($base-px / $base-font-size))/$base-font-size) * 100 ) / 100 ) * 1em ;
+}
+

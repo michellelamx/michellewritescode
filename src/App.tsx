@@ -4,7 +4,6 @@ import { About } from '@pages/About'
 import { Contact } from '@pages/Contact'
 import { Hype } from '@pages/Hype'
 import { Intro } from '@pages/Intro'
-// import { Skillsets } from '@pages/Skillsets'
 import { Work } from '@pages/Work'
 import '@styles/main.css'
 

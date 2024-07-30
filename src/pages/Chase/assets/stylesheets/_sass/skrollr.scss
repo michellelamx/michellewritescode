@@ -1,0 +1,17 @@
+.skrollable {
+	/* First-level skrollables are positioned relative to window  */
+	position:fixed;
+	z-index:100;
+}
+
+.skrollr-mobile .skrollable {
+	/* 	May cause issues on Android default browser (see #331 on GitHub). */
+	position:absolute;
+}
+
+.skrollable .skrollable {
+	/* Second-level skrollables are positioned relative their parent skrollable */
+	position:absolute;
+}
+
+

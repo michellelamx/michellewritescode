@@ -1,0 +1,18 @@
+/* line 1, ../_sass/skrollr.scss */
+.skrollable {
+  /* First-level skrollables are positioned relative to window  */
+  position: fixed;
+  z-index: 100;
+}
+
+/* line 7, ../_sass/skrollr.scss */
+.skrollr-mobile .skrollable {
+  /* 	May cause issues on Android default browser (see #331 on GitHub). */
+  position: absolute;
+}
+
+/* line 12, ../_sass/skrollr.scss */
+.skrollable .skrollable {
+  /* Second-level skrollables are positioned relative their parent skrollable */
+  position: absolute;
+}
