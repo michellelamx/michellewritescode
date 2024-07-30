@@ -1,0 +1,19 @@
+.logosWrapper {
+  align-items: center;
+  column-gap: 4rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-block-start: 4rem;
+  row-gap: 2.4rem;
+
+  .logoBox {
+    display: flex;
+    justify-content: center;
+  }
+
+  .companyLogo {
+    max-height: 5rem;
+    max-width: 8rem;
+  }
+}

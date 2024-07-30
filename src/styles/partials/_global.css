@@ -68,9 +68,10 @@ a {
   height: 100%;
   margin-top: 8rem;
   max-width: 96rem;
+  width: 100%;
 
   &.wide {
-    max-width: 110rem;
+    max-width: 120rem;
   }
 
   &.full-width {

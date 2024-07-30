@@ -47,12 +47,12 @@ export const testimonials = [
     title: 'Director of Product Design',
     quote: `During our time at Slang, Michelle was a pleasure to work with. She always brought a positive attitude and attention to detail. I'd be very happy to work with her again.`,
   },
-  // {
-  //   id: '09',
-  //   name: '',
-  //   title: '',
-  //   quote: ``,
-  // },
+  {
+    id: '09',
+    name: 'Theresa Bui',
+    title: 'Senior Product Manager @ Splunk',
+    quote: `Michelle and I worked together on the same product development team at Splunk. She's very passionate about frontend development and always goes the extra mile to deliver high quality products and great user experiences.\n\nShe also led didactics and taught others the current best practices, up-leveling the skills of the entire team. Michelle would be a strong asset to any team lucky enough to have her.`,
+  },
   // {
   //   id: '10',
   //   name: '',
