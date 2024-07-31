@@ -13,10 +13,9 @@
   --color-header-bg: hsla(246, 32%, 13%, 0.8);
   --color-link-primary: hsl(240, 100%, 98%);
   --color-link--active: var(--color-accent-secondary);
-  --color-page-title: var(--color-accent-tertiary);
-  --color-quote-border: var(--color-accent-primary);
+  --color-page-title: var(--color-accent-primary);
+  --color-quote-border: hsl(246, 20%, 38%);
 }
-
 
 /*
 #19172b

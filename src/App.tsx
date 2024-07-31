@@ -4,6 +4,7 @@ import { About } from '@pages/About'
 import { Contact } from '@pages/Contact'
 import { Hype } from '@pages/Hype'
 import { Intro } from '@pages/Intro'
+import { Skills } from '@pages/Skills'
 import { Work } from '@pages/Work'
 import '@styles/main.css'
 
@@ -17,6 +18,7 @@ export default function App() {
       <Intro />
       <About />
       <Hype />
+      <Skills />
       <Work />
       <Contact />
     </main>

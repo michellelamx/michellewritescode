@@ -10,6 +10,13 @@
   .logoBox {
     display: flex;
     justify-content: center;
+
+    &:hover {
+
+      img {
+        filter: contrast(200%) brightness(4);
+      }
+    }
   }
 
   .companyLogo {

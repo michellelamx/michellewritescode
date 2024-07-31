@@ -3,7 +3,7 @@ import styles from './main.module.css'
 import { MouseEvent } from 'react'
 
 export const Header = () => {
-  const sections = ['home', 'about', 'hype', 'work', 'contact']
+  const sections = ['home', 'about', 'hype', 'skills', 'work', 'contact']
   const visibleSection = useIntersectionObserver(sections)
 
   const handleLinkClick = (event: MouseEvent<HTMLAnchorElement>) => {
