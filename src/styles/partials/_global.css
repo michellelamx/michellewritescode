@@ -121,12 +121,12 @@ h1.page-title {
   text-transform: uppercase;
 
   @media (width > 820px) and (width < 984px) {
-    font-size: 16rem;
+    font-size: 16vw;
     margin-block: 1rem 1.4rem;
   }
 
   @media (width < 820px) {
-    font-size: 12rem;
-    top: 1rem;
+    font-size: 16vw;
+    top: 1.7rem;
   }
 }

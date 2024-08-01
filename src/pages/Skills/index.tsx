@@ -17,7 +17,6 @@ export const Skills = () => {
             </div>
           ))}
         </div>
-        <div className={styles.postscript}>and more...</div>
       </div>
     </section>
   )
