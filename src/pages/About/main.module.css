@@ -4,6 +4,11 @@
   .aboutContent {
     display: flex;
     flex-direction: column;
+    margin-block-start: 2.4rem;
+
+    @media (width < 984px) {
+      margin-block-start: 0;
+    }
   }
 
   p {

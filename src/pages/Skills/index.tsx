@@ -92,6 +92,12 @@ export const Skills = () => {
       path: '/skills-logos/graphql-logo.svg',
       text: 'GraphQL',
     },
+    {
+      id: '16',
+      alt: 'REST API logo',
+      path: '/skills-logos/rest-api-logo.svg',
+      text: 'REST API',
+    }
   ]
 
   return (
@@ -108,7 +114,7 @@ export const Skills = () => {
             </div>
           ))}
         </div>
-        <div className={styles.postscript}>to name a few...</div>
+        <div className={styles.postscript}>and more...</div>
       </div>
     </section>
   )
