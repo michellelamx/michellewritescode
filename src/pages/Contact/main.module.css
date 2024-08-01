@@ -1,3 +1,40 @@
 .contactWrapper {
-  display: flex;
+  position: relative;
+
+  .contactContentWrapper {
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-block-start: 6rem;
+  }
+
+  .row {
+    align-items: center;
+    display: flex;
+
+    + .row {
+      margin-block-start: 2.4rem;
+    }
+  }
+
+  .email,
+  .socials {
+    display: flex;
+
+    img {
+      height: auto;
+      margin-inline-end: 1.4rem;
+      width: 3.2rem;
+    }
+
+    a {
+      color: var(--color-link-body);
+      font-size: 2.4rem;
+
+      &:hover {
+        color: var(--color-link-body--hover);
+      }
+    }
+  }
 }

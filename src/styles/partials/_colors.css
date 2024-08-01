@@ -10,11 +10,13 @@
   --color-accent-secondary: hsl(267, 95%, 76%);
   --color-accent-tertiary: hsl(307, 100%, 50%);
   --color-border-primary: hsl(240, 5%, 18%);
-  --color-header-bg: hsla(246, 32%, 13%, 0.8);
+  --color-header-bg: hsla(250, 33%, 25%, 0.3);
   --color-link-primary: hsl(240, 100%, 98%);
   --color-link--active: var(--color-accent-secondary);
   --color-page-title: hsl(244, 29%, 23%);
   --color-quote-border: hsl(246, 20%, 38%);
+  --color-link-body: hsl(267, 95%, 76%);
+  --color-link-body--hover: hsl(266, 68%, 56%);
 }
 
 /*

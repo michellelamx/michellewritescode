@@ -1,6 +1,7 @@
 header {
-  backdrop-filter: saturate(200%) blur(0.7rem);
-  background-color: var(--color-header-bg);
+  background: var(--color-header-bg);
+  box-shadow: 0 0.8rem 3.2rem 0 var(--color-header-bg);
+  backdrop-filter: blur( 0.5rem );
   font-family: var(--monospace-font);
   height: 6rem;
   position: fixed;
