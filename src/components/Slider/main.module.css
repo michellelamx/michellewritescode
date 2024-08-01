@@ -27,6 +27,8 @@
 
     @media (width < 984px) {
       order: 1;
+      margin: 1.4rem 1.4rem 1.4rem 0;
+      width: calc(100vw - 5.4rem);
     }
   }
 }

@@ -1,3 +1,7 @@
 .workSampleWrapper {
   display: flex;
+
+  .workSample {
+    display: flex;
+  }
 }

@@ -6,14 +6,14 @@ export const Work = () => {
 
   return (
     <section className={styles.workWrapper} id='work'>
+      <h1 className='page-title'>work</h1>
       <div className='content-container wide'>
-      <h2 className='page-title'><span className='left-bracket'>{`{`}</span>work<span className='right-bracket'>{`}`}</span></h2>
-      <div className='work-container'>
-        
-      </div>
-      <div className='logo-container'>
-        <Logos />
-      </div>
+        <div className='work-container'>
+          
+        </div>
+        <div className='logo-container'>
+          <Logos />
+        </div>
       </div>
     </section>
   )

@@ -6,10 +6,8 @@ export const Hype = () => {
 
   return (
     <section className={styles.hypeWrapper} id='hype'>
+      <h1 className='page-title'>hype</h1>
       <div className='content-container full-width'>
-        <h2 className='page-title'>
-          <span className='left-bracket'>{`{`}</span>hype<span className='right-bracket'>{`}`}</span>
-        </h2>
         <Slider />
       </div>
     </section>

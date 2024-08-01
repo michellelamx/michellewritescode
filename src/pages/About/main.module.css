@@ -1,4 +1,5 @@
 .aboutWrapper {
+  position: relative;
 
   .aboutContent {
     display: flex;

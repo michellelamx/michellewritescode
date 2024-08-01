@@ -1,7 +1,48 @@
 
 :root {
+  --montserrat-font: 'Montserrat', sans-serif;
   --monospace-font: 'MonoLisa', monospace;
   --worksans-font: 'WorkSans', sans-serif;
+}
+
+@font-face {
+  font-display: swap;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/montserrat/Montserrat-Medium.woff') format('woff');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  src: url('../fonts/montserrat/Montserrat-SemiBold.woff') format('woff');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/montserrat/Montserrat-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 800;
+  src: url('../fonts/montserrat/Montserrat-ExtraBold.woff') format('woff');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 900;
+  src: url('../fonts/montserrat/Montserrat-Black.woff') format('woff');
 }
 
 @font-face {

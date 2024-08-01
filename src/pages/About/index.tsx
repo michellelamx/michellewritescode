@@ -4,10 +4,8 @@ export const About = () => {
 
   return (
     <section className={styles.aboutWrapper} id='about'>
+      <h1 className='page-title left-side'>ABOUT</h1>
       <div className='content-container'>
-        <h2 className='page-title'>
-          <span className='left-bracket'>{`{`}</span>about<span className='right-bracket'>{`}`}</span>
-        </h2>
         <div className={styles.aboutContent}>
           <p>As a front-end engineer for over 14 years, I honestly can't imagine doing anything else. It's truly a privilege to be able to earn a living doing what I love.</p>
           <p>I thrive at the intersection of rapid innovation and uncompromising quality, while ensuring that speed never comes at the cost of quality. With a keen eye for detail and strong product instincts, I specialize in crafting high-performance front-end applications with pixel-perfect precision and a dedicated pursuit of user happiness.</p>

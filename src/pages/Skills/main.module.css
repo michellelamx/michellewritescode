@@ -5,7 +5,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-block-start: 6rem;
+    margin-block-start: 4rem;
     row-gap: 4rem;
   }
 
@@ -48,6 +48,6 @@
     display: flex;
     justify-content: end;
     font-size: 1.4rem;
-    margin-top: 6rem;
+    margin-top: 2rem;
   }
 }

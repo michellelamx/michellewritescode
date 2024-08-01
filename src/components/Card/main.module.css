@@ -2,7 +2,7 @@
   max-width: 48rem;
 
   @media (width < 984px) {
-    margin-inline: 2rem;
+    margin-inline: 0;
     max-width: calc(100vw - 4rem);
   }
 
@@ -12,6 +12,10 @@
     display: flex;
     line-height: 1.6;
     flex-direction: column;
+
+    @media (width < 984px) {
+      max-width: calc(100vw - 4.4rem);
+    }
   }
 
   .cardQuote {
