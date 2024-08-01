@@ -19,42 +19,48 @@ export const testimonials = [
   },
   {
     id: '04',
+    name: 'Gabe Duncan',
+    title: 'CTO @ Slang.ai',
+    quote: `Michelle is always improving her craft, trying new tools, evangelizing best practices to her team, and working hard to exceed her goals.`
+  },
+  {
+    id: '05',
     name: 'Jeff Mandell',
     title: 'Senior Software Engineer @ Slang.ai',
     quote: 'Michelle is an exceptionally hard working developer from whom I gained valuable insights while working alongside her at Slang.ai. She is highly knowledgeable and passionate about front-end development, consistently advocating for best practices.\n\nAdditionally, Michelle is dedicated to fostering a fun and inclusive culture, making her a fantastic teammate',
   },
   {
-    id: '05',
+    id: '06',
     name: 'Ashley Berndt',
     title: 'Creative Director',
     quote: `I worked with Michelle at Huge. She was always ready to experiment and workshop solutions to bring our designs to life with tenacity. I quickly learned that whenever she was staffed as the dev on my project, anything was possible.\n\nShe remains my favorite dev partner in my career to date and I'm so excited to see what she does next.`,
   },
   {
-    id: '06',
+    id: '07',
     name: 'Rina Haverly',
     title: 'Product Manager @ Slang.ai',
     quote: `Working with Michelle was a pure delight. She has such a natural affinity for interaction design and front-end work, it felt more like having a thought partner than any other engineer I've ever worked with.\n\nShe always went above and beyond to try to understand the end goal and desired user outcomes, and was never satisfied with the first solution at hand if it felt like there could be a better solution. She went out of her way to research other libraries and design opportunities to try to make sure that all stakeholders would have an end product that nailed the assignment, bringing multiple options to the table to review if the situation warranted.\n\nShe's also the fastest on front-end work I've ever seen, so we had our solutions in hand lightning fast.`
   },
   {
-    id: '07',
+    id: '08',
     name: 'Levi Jones',
     title: 'Principal Designer',
     quote: `Michelle's attention to detail and proactive communication ensured that our projects were not only completed on time but also exceeded expectations.\n\nHer ability to translate complex design concepts into beautiful, functional interfaces made her an invaluable member of our team at Slang, and her collaborative spirit fostered a productive and enjoyable working environment.`,
   },
   {
-    id: '08',
+    id: '09',
     name: 'Ljuba Youngbloom',
     title: 'Director of Product Design',
     quote: `During our time at Slang, Michelle was a pleasure to work with. She always brought a positive attitude and attention to detail. I'd be very happy to work with her again.`,
   },
   {
-    id: '09',
+    id: '10',
     name: 'Theresa Bui',
     title: 'Senior Product Manager @ Splunk',
     quote: `Michelle and I worked together on the same product development team at Splunk. She's very passionate about frontend development and always goes the extra mile to deliver high quality products and great user experiences.\n\nShe also led didactics and taught others the current best practices, up-leveling the skills of the entire team. Michelle would be a strong asset to any team lucky enough to have her.`,
   },
   // {
-  //   id: '10',
+  //   id: '11',
   //   name: '',
   //   title: '',
   //   quote: ``,
