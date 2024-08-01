@@ -1,8 +1,8 @@
 .skillsWrapper {
 
   .skills {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
     gap: 4rem;
     justify-content: center;
     margin-block-start: 4rem;
@@ -12,7 +12,8 @@
     align-items: center;
     display: flex;
     flex-direction: column;
-    width: 12rem;
+    justify-content: center;
+    text-align: center;
 
     img {
       height: 100%;
@@ -21,24 +22,33 @@
       width: 100%;
     }
 
+    .skillName {
+      color: var(--color-text-primary);
+      font-size: 3.2rem;
+      font-weight: 600;
+      margin-block-start: 0.8rem;
+      opacity: 0;
+      position: absolute;
+      text-transform: uppercase;
+      transform: scaleY(1.1);
+    }
+
     .skillImage {
       align-items: center;
       display: flex;
       height: 8rem;
       justify-content: center;
-
-      &:hover {
-
-        img {
-          filter: contrast(180%) brightness(3);
-        }
-      }
     }
 
-    .skillName {
-      color: var(--color-text-secondary);
-      font-size: 1.4rem;
-      margin-block-start: 0.8rem;
+    &:hover {
+
+      .skillImage {
+        opacity: 0.5;
+      }
+
+      .skillName {
+        animation: fadeIn 2s;
+      }
     }
   }
 
@@ -48,5 +58,16 @@
     justify-content: end;
     font-size: 1.4rem;
     margin-top: 4rem;
+  }
+}
+
+@keyframes fadeIn {
+
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
   }
 }
