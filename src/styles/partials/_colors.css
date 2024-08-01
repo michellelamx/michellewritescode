@@ -8,7 +8,7 @@
   --color-text-secondary: hsl(277, 13%, 73%);
   --color-accent-primary: hsl(266, 68%, 56%);
   --color-accent-secondary: hsl(267, 95%, 76%);
-  --color-accent-tertiary: hsla(307, 100%, 50%, 0.65);
+  --color-accent-tertiary: hsl(307, 100%, 50%);
   --color-border-primary: hsl(240, 5%, 18%);
   --color-header-bg: hsla(246, 32%, 13%, 0.8);
   --color-link-primary: hsl(240, 100%, 98%);

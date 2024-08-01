@@ -97,6 +97,12 @@ export const Skills = () => {
       alt: 'REST API logo',
       path: '/skills-logos/rest-api-logo.svg',
       text: 'REST API',
+    },
+    {
+      id: '17',
+      alt: 'Tanstack logo',
+      path: '/skills-logos/tanstack-logo.png',
+      text: 'Tanstack',
     }
   ]
 

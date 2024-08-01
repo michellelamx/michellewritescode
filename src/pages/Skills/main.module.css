@@ -1,12 +1,11 @@
 .skillsWrapper {
 
   .skills {
-    column-gap: 4rem;
     display: flex;
     flex-wrap: wrap;
+    gap: 4rem;
     justify-content: center;
     margin-block-start: 4rem;
-    row-gap: 3rem;
   }
 
   .skill {
@@ -17,7 +16,7 @@
 
     img {
       height: 100%;
-      max-height: 6rem;
+      max-height: 8rem;
       max-width: 8rem;
       width: 100%;
     }
@@ -31,7 +30,7 @@
       &:hover {
 
         img {
-          filter: contrast(200%) brightness(4);
+          filter: contrast(180%) brightness(3);
         }
       }
     }
