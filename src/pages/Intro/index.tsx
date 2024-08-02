@@ -36,7 +36,7 @@ export const Intro = () => {
         </h1>
         <div className={styles.details}>
           <div className={styles.introSubtitle}>
-            Frontend Engineer
+            Senior Frontend Engineer
           </div>
           <div className={styles.introTagline}>
             I build pixel-perfect products that solve problems for users
