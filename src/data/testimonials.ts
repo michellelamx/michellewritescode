@@ -27,7 +27,7 @@ export const testimonials = [
     id: '05',
     name: 'Jeff Mandell',
     title: 'Senior Software Engineer @ Slang.ai',
-    quote: 'Michelle is an exceptionally hard working developer from whom I gained valuable insights while working alongside her at Slang.ai. She is highly knowledgeable and passionate about front-end development, consistently advocating for best practices.\n\nAdditionally, Michelle is dedicated to fostering a fun and inclusive culture, making her a fantastic teammate',
+    quote: 'Michelle is an exceptionally hard working developer from whom I gained valuable insights while working alongside her at Slang.ai. She is highly knowledgeable and passionate about front-end development, consistently advocating for best practices.\n\nAdditionally, Michelle is dedicated to fostering a fun and inclusive culture, making her a fantastic teammate.',
   },
   {
     id: '06',

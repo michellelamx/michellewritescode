@@ -14,7 +14,7 @@ import { useRef } from 'react'
 
 export const Slider = () => {
   const pluginOptions = useRef(
-    Autoplay({ delay: 3000, stopOnInteraction: true })
+    Autoplay({ delay: 6000, stopOnInteraction: true })
   )
 
   return (

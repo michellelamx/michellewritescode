@@ -1,9 +1,14 @@
 .cardWrapper {
   max-width: 48rem;
 
-  @media (width < 984px) {
-    margin-inline: 0;
+  @media (width > 820px) and (width < 984px) {
+    margin-inline: 2.4rem;
     max-width: calc(100vw - 4rem);
+  }
+
+  @media (width <= 820px) {
+    margin-inline: 0;
+    max-width: 100vw;
   }
 
   .card {

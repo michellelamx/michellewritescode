@@ -126,7 +126,7 @@ h1.page-title {
     margin-block: 1rem 1.4rem;
   }
 
-  @media (width < 820px) {
+  @media (width <= 820px) {
     font-size: 16vw;
     top: 1.7rem;
   }

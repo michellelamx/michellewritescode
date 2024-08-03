@@ -7,8 +7,13 @@
     align-items: center;
     display: flex;
 
-    @media (width < 984px) {
+    @media (width > 820px) and (width < 984px) {
       align-items: start;
+    }
+
+    @media (width <= 820px) {
+      align-items: start;
+      width: 100%;
     }
   }
 

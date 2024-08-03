@@ -8,7 +8,7 @@ export const About = () => {
       <div className='content-container wide'>
         <div className={styles.twoUpGrid}>
           <div className={styles.imageWrapper}>
-            <img src='/illustrated-me.png' alt='illustrated picture of me with laptop' />
+            <img src='/illustrated-me-laptop.png' alt='illustrated picture of me with laptop' />
           </div>
           <div className={styles.aboutContent}>
             <p>As a front-end engineer for 14+ years, I honestly can't imagine doing anything else. I feel truly blessed to be able to earn a living doing what I love.</p>
