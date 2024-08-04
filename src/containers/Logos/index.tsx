@@ -1,8 +1,8 @@
 import { logos } from '@data/logos'
 import styles from './main.module.css'
 
-export const Logos = () => {
 
+export const Logos = () => {
 
   return (
     <div className={styles.logosWrapper}>

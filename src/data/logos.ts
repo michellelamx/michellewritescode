@@ -8,6 +8,7 @@ export const logos = [
     id: 2,
     alt: 'Splunk logo',
     path: '/logos/splunk-logo.png',
+    link: '/splunk'
   },
   {
     id: 3,
@@ -16,7 +17,7 @@ export const logos = [
   },
   {
     id: 4,
-    alt: 'SlangAI logo',
+    alt: 'Slang.ai logo',
     path: '/logos/slang-logo.png',
   },
   {

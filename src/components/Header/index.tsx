@@ -7,12 +7,12 @@ export const Header = () => {
   const visibleSection = useIntersectionObserver(sections)
 
   const handleLinkClick = (event: MouseEvent<HTMLAnchorElement>) => {
-    event.preventDefault();
-    const targetId = event.currentTarget.getAttribute('href')?.substring(1);
+    event.preventDefault()
+    const targetId = event.currentTarget.getAttribute('href')?.substring(1)
     if (targetId) {
-      const targetElement = document.getElementById(targetId);
+      const targetElement = document.getElementById(targetId)
       if (targetElement) {
-        targetElement.scrollIntoView({ behavior: 'smooth' });
+        targetElement.scrollIntoView({ behavior: 'smooth' })
       }
     }
   }

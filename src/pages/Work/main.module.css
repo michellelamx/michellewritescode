@@ -1,3 +1,19 @@
 .workWrapper {
   display: flex;
+
+  .contentLayout {
+    display: grid;
+    grid-template-rows: 30rem 1fr 9rem;
+  }
+
+  .projectList {
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+    margin-block-start: 4rem;
+  }
+
+  /* .logoContainer {
+
+  } */
 }

@@ -43,9 +43,19 @@ a {
     pointer-events: none;
   }
 
-  &:focus-visible {
+  &:hover {
+    color: var(--color-link-primary--hover);
+    cursor: pointer;
+  }
+
+  &:focus-visible,
+  &:focus {
     border: 0;
     outline: 0;
+  }
+
+  &.large {
+    font-size: 1.8rem;
   }
 }
 
@@ -73,6 +83,13 @@ a {
     position: relative;
     overflow-y: auto;
     width: 100%;
+  }
+
+  &:has(.work-container) {
+
+    header {
+      display: none;
+    }
   }
 }
 

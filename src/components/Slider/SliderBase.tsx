@@ -104,9 +104,6 @@ const SliderBase = forwardRef<
       [scrollPrev, scrollNext]
     )
 
-    console.log('canScrollPrev: ', canScrollPrev)
-    console.log('canScrollNext', canScrollNext)
-
     useEffect(() => {
       if (!api || !setApi) {
         return

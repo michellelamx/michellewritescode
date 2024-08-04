@@ -59,12 +59,12 @@
     }
 
     a {
-      color: var(--color-link-body);
+      color: var(--color-link-primary);
       font-size: 2.4rem;
       font-weight: 400;
 
       &:hover {
-        color: var(--color-link-body--hover);
+        color: var(--color-link-primary--hover);
       }
 
       @media (width > 820px) and (width < 984px) {
