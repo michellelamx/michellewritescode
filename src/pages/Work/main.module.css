@@ -2,8 +2,7 @@
   display: flex;
 
   .contentLayout {
-    display: grid;
-    grid-template-rows: 30rem 1fr 9rem;
+    display: flex;
   }
 
   .projectList {

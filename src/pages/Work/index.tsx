@@ -1,16 +1,16 @@
 import { Logos } from '@containers/Logos'
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 import styles from './main.module.css'
 
 
 export const Work = () => {
 
   return (
-    <section className={styles.workWrapper} id='work'>
+    <section className={styles.workWrapper} data-parent='work' id='work'>
       <h1 className='page-title'>work</h1>
       <div className='content-container wide'>
         <div className={styles.contentLayout}>
-          <div className={styles.projectList}>
+          {/* <div className={styles.projectList}>
             <div className={styles.projectItem}>
               <Link
                 to='/slang'
@@ -50,7 +50,7 @@ export const Work = () => {
                 NYU Langone Giving
               </Link>
             </div>
-          </div>
+          </div> */}
           <Logos />
         </div>
       </div>

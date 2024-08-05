@@ -3,7 +3,7 @@ import styles from './main.module.css'
 export const About = () => {
 
   return (
-    <section className={styles.aboutWrapper} id='about'>
+    <section className={styles.aboutWrapper} data-parent='about' id='about'>
       <h1 className='page-title left-side'>ABOUT</h1>
       <div className='content-container wide'>
         <div className={styles.twoUpGrid}>

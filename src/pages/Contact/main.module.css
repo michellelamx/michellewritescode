@@ -7,9 +7,9 @@
     grid-template-rows: 1fr;
     margin-block-start: 4rem;
 
-    @media (width <= 820px) {
+    @media (width <=820px) {
       grid-template-columns: 1fr;
-      margin-block-start:0;
+      margin-block-start: 0;
     }
   }
 
@@ -17,18 +17,14 @@
     display: inline-block;
     max-width: 100%;
 
-    @media (width <= 820px) {
+    @media (width <=820px) {
       display: none;
       max-width: 0;
     }
 
     img {
-      opacity: 0.6;
+      opacity: 0.85;
       width: 100%;
-
-      &:hover {
-        opacity: 0.85;
-      }
     }
   }
 
@@ -38,24 +34,31 @@
     flex-direction: column;
     flex-wrap: wrap;
     margin-block-start: 20%;
+    margin-inline-start: -2rem;
   }
 
   .row {
     align-items: center;
     display: flex;
 
-    + .row {
-      margin-block-start: 2.4rem;
+    +.row {
+      margin-block-start: 1.8rem;
     }
+  }
+
+  .contactIcon {
+    align-items: center;
+    display: flex;
   }
 
   .contactItems {
     display: flex;
+    z-index: 2;
 
-    img {
-      height: auto;
-      margin-inline-end: 1.4rem;
-      width: 3.2rem;
+    svg {
+      height: 2.4rem;
+      margin-inline-end: 0.8rem;
+      width: 2.4rem;
     }
 
     a {
@@ -63,16 +66,23 @@
       font-size: 2.4rem;
       font-weight: 400;
 
-      &:hover {
-        color: var(--color-link-primary--hover);
-      }
-
       @media (width > 820px) and (width < 984px) {
         font-size: 2vw;
       }
 
-      @media (width <= 820px) {
+      @media (width <=820px) {
         font-size: 4vw;
+      }
+    }
+
+    &:hover {
+
+      a {
+        color: var(--color-link-primary--hover);
+      }
+
+      .bgFill {
+        fill: var(--color-link-primary--hover);
       }
     }
   }

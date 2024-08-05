@@ -4,22 +4,24 @@
   flex-wrap: wrap;
   gap: 4rem;
   justify-content: center;
-  margin-block-start: 4rem;
+  /* margin-block-start: 4rem; */
 
   .logoBox {
     display: flex;
     justify-content: center;
+    transition: opacity 0.3s;
 
     &:hover {
 
       img {
-        filter: contrast(200%) brightness(4);
+        opacity: 0.8;
       }
     }
   }
 
   .companyLogo {
-    max-height: 5rem;
-    max-width: 8rem;
+    height: 6rem;
+    max-width: 26rem;
+    width: auto;
   }
 }

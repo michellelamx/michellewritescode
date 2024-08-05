@@ -4,7 +4,7 @@ import styles from './main.module.css'
 export const Skills = () => {
 
   return (
-    <section className={styles.skillsWrapper} id='skills'>
+    <section className={styles.skillsWrapper} data-parent='skills' id='skills'>
       <h1 className='page-title'>skills</h1>
       <div className='content-container'>
         <div className={styles.skills}>

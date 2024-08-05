@@ -15,8 +15,9 @@
   --color-link-primary--hover: var(--color-accent-secondary);
   --color-link--active: var(--color-accent-secondary);
   --color-page-title: hsl(244, 29%, 23%);
-  --color-quote-border: hsl(246, 20%, 38%);
+  --color-quote-border: hsl(251, 39%, 47%);
   --color-modal-bg: hsl(240, 5%, 18%);
+  --color-svg-primary: hsl(251, 39%, 47%);
 }
 
 /*
@@ -24,7 +25,9 @@
 #2A2841
 #2c2a4c
 #524E74
-#8543db
+#5a49a7
+#6354ab // svg hightlight color
+#9E81C9
 #A560FB
 #C67EFF
 #bc88fc

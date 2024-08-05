@@ -5,7 +5,7 @@ import styles from './main.module.css'
 export const Hype = () => {
 
   return (
-    <section className={styles.hypeWrapper} id='hype'>
+    <section className={styles.hypeWrapper} data-parent='hype' id='hype'>
       <h1 className='page-title'>hype</h1>
       <div className='content-container full-width'>
         <Slider />
