@@ -16,6 +16,7 @@
     justify-content: center;
     position: relative;
     text-align: center;
+    transition: opacity 1s;
 
     img {
       height: 100%;
@@ -52,7 +53,7 @@
       }
 
       .skillName {
-        animation: fadeIn 2s;
+        animation: fadeIn 1s;
       }
     }
   }

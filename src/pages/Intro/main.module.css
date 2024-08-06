@@ -19,6 +19,7 @@ h1.introTitle {
   margin: 0;
   padding-block-end: 1.2rem;
   text-align: center;
+  user-select: none;
 
   @media (width < 984px) {
     font-size: 15vw;

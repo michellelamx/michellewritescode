@@ -2,46 +2,46 @@
 	<style>
 		.st0{filter:url(#Adobe_OpacityMaskFilter);}
 		.st1{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
-		.st2{mask:url(#mask-2_00000091721759854819266730000000630998209762342325_);fill:none;stroke:#5a49a7;stroke-width:25;}
+		.st2{mask:url(#mask-2_00000091721759854819266730000000630998209762342325_);fill:none;stroke:#a560fb;stroke-width:25;}
 		.st3{filter:url(#Adobe_OpacityMaskFilter_00000170247607771302380380000010448277854789508743_);}
-		.st4{mask:url(#mask-2_00000062184848775981898770000009181280553193112510_);fill:none;stroke:#5a49a7;stroke-width:25;}
+		.st4{mask:url(#mask-2_00000062184848775981898770000009181280553193112510_);fill:none;stroke:#a560fb;stroke-width:25;}
 		.st5{filter:url(#Adobe_OpacityMaskFilter_00000135688937969961514220000002490349287652642208_);}
-		.st6{mask:url(#mask-2_00000147901568190797066530000002009596287952406676_);fill:none;stroke:#5a49a7;stroke-width:25;}
+		.st6{mask:url(#mask-2_00000147901568190797066530000002009596287952406676_);fill:none;stroke:#a560fb;stroke-width:25;}
 		.st7{filter:url(#Adobe_OpacityMaskFilter_00000002349728209329458510000006511985810670978433_);}
-		.st8{mask:url(#mask-2_00000092449531277864416870000001146304364351623811_);fill:none;stroke:#5a49a7;stroke-width:25;}
+		.st8{mask:url(#mask-2_00000092449531277864416870000001146304364351623811_);fill:none;stroke:#a560fb;stroke-width:25;}
 		.st9{filter:url(#Adobe_OpacityMaskFilter_00000152978351263352843430000009999718790476884144_);}
-		.st10{mask:url(#mask-2_00000013889160468200705040000013972745897118489475_);fill:none;stroke:#5a49a7;stroke-width:25;}
+		.st10{mask:url(#mask-2_00000013889160468200705040000013972745897118489475_);fill:none;stroke:#a560fb;stroke-width:25;}
 		.st11{filter:url(#Adobe_OpacityMaskFilter_00000111192423667178720870000013523568972426330033_);}
-		.st12{mask:url(#mask-2_00000084489547890501651690000003908440589559746209_);fill:none;stroke:#5a49a7;stroke-width:25;}
+		.st12{mask:url(#mask-2_00000084489547890501651690000003908440589559746209_);fill:none;stroke:#a560fb;stroke-width:25;}
 		.st13{filter:url(#Adobe_OpacityMaskFilter_00000040542151668827820830000014459464103112155563_);}
-		.st14{mask:url(#mask-2_00000088832920341175532290000018174874997616939917_);fill-rule:evenodd;clip-rule:evenodd;fill:#19172B;stroke:#5a49a7;stroke-width:25;}
+		.st14{mask:url(#mask-2_00000088832920341175532290000018174874997616939917_);fill-rule:evenodd;clip-rule:evenodd;fill:#19172B;stroke:#a560fb;stroke-width:25;}
 		.st15{filter:url(#Adobe_OpacityMaskFilter_00000053537690170928316560000016606524494175291565_);}
-		.st16{mask:url(#mask-2_00000152972881540485990480000014597215131814133670_);fill-rule:evenodd;clip-rule:evenodd;fill:#19172B;stroke:#5a49a7;stroke-width:23;}
+		.st16{mask:url(#mask-2_00000152972881540485990480000014597215131814133670_);fill-rule:evenodd;clip-rule:evenodd;fill:#19172B;stroke:#a560fb;stroke-width:23;}
 		.st17{filter:url(#Adobe_OpacityMaskFilter_00000178924361790249069220000009783976019917283460_);}
-		.st18{mask:url(#mask-2_00000083070438844674228080000002347991617523325579_);fill:none;stroke:#5a49a7;stroke-width:12;stroke-linecap:round;stroke-linejoin:bevel;}
+		.st18{mask:url(#mask-2_00000083070438844674228080000002347991617523325579_);fill:none;stroke:#a560fb;stroke-width:12;stroke-linecap:round;stroke-linejoin:bevel;}
 		.st19{filter:url(#Adobe_OpacityMaskFilter_00000126303334699915981540000004711798547271114415_);}
-		.st20{mask:url(#mask-2_00000032649687488961349110000006417921855263936441_);fill:none;stroke:#5a49a7;stroke-width:12;stroke-linecap:round;stroke-linejoin:bevel;}
+		.st20{mask:url(#mask-2_00000032649687488961349110000006417921855263936441_);fill:none;stroke:#a560fb;stroke-width:12;stroke-linecap:round;stroke-linejoin:bevel;}
 		.st21{filter:url(#Adobe_OpacityMaskFilter_00000139270872327048014960000013480260318699711909_);}
-		.st22{mask:url(#mask-2_00000083774460349024491380000014485352367896092853_);fill:none;stroke:#5a49a7;stroke-width:12;stroke-linecap:round;stroke-linejoin:bevel;}
+		.st22{mask:url(#mask-2_00000083774460349024491380000014485352367896092853_);fill:none;stroke:#a560fb;stroke-width:12;stroke-linecap:round;stroke-linejoin:bevel;}
 		.st23{filter:url(#Adobe_OpacityMaskFilter_00000006676847580595497890000017946442506700748986_);}
-		.st24{mask:url(#mask-2_00000160897756712264869650000006148997812989194665_);fill:none;stroke:#5a49a7;stroke-width:12;stroke-linecap:round;stroke-linejoin:bevel;}
+		.st24{mask:url(#mask-2_00000160897756712264869650000006148997812989194665_);fill:none;stroke:#a560fb;stroke-width:12;stroke-linecap:round;stroke-linejoin:bevel;}
 		.st25{filter:url(#Adobe_OpacityMaskFilter_00000154421565447832248930000014125407078341210246_);}
-		.st26{mask:url(#mask-2_00000058576962402620023790000007730412934568961437_);fill:none;stroke:#5a49a7;stroke-width:12;stroke-linecap:round;stroke-linejoin:bevel;}
+		.st26{mask:url(#mask-2_00000058576962402620023790000007730412934568961437_);fill:none;stroke:#a560fb;stroke-width:12;stroke-linecap:round;stroke-linejoin:bevel;}
 		.st27{filter:url(#Adobe_OpacityMaskFilter_00000123419772231139608570000010865619072757698979_);}
-		.st28{mask:url(#mask-2_00000018959748841068026660000003094327067455325079_);fill:none;stroke:#5a49a7;stroke-width:12;stroke-linecap:round;stroke-linejoin:bevel;}
+		.st28{mask:url(#mask-2_00000018959748841068026660000003094327067455325079_);fill:none;stroke:#a560fb;stroke-width:12;stroke-linecap:round;stroke-linejoin:bevel;}
 		.st29{filter:url(#Adobe_OpacityMaskFilter_00000035494942407828037900000011728133288487686793_);}
-		.st30{mask:url(#mask-2_00000150819522538332555090000004686394428749410693_);fill:none;stroke:#5a49a7;stroke-width:12;stroke-linecap:round;stroke-linejoin:bevel;}
+		.st30{mask:url(#mask-2_00000150819522538332555090000004686394428749410693_);fill:none;stroke:#a560fb;stroke-width:12;stroke-linecap:round;stroke-linejoin:bevel;}
 		.st31{filter:url(#Adobe_OpacityMaskFilter_00000093178254518125170090000014685913533908212380_);}
-		.st32{mask:url(#mask-2_00000012443406583567997390000008182480689242509467_);fill:none;stroke:#5a49a7;stroke-width:12;stroke-linecap:round;stroke-linejoin:bevel;}
-		.st33{fill:none;stroke:#5a49a7;stroke-width:25;}
+		.st32{mask:url(#mask-2_00000012443406583567997390000008182480689242509467_);fill:none;stroke:#a560fb;stroke-width:12;stroke-linecap:round;stroke-linejoin:bevel;}
+		.st33{fill:none;stroke:#a560fb;stroke-width:25;}
 		.st34{filter:url(#Adobe_OpacityMaskFilter_00000140732551022666131580000004482526019331622534_);}
 		.st35{mask:url(#mask-4_00000101097475927686506890000010885949424613341370_);}
-		.st36{fill-rule:evenodd;clip-rule:evenodd;fill:#5a49a7;stroke:#5a49a7;stroke-miterlimit:10;}
-		.st37{fill-rule:evenodd;clip-rule:evenodd;fill:#19172B;stroke:#5a49a7;stroke-width:13;}
-		.st38{fill:none;stroke:#5a49a7;stroke-width:8;stroke-linecap:round;}
+		.st36{fill-rule:evenodd;clip-rule:evenodd;fill:#a560fb;stroke:#a560fb;stroke-miterlimit:10;}
+		.st37{fill-rule:evenodd;clip-rule:evenodd;fill:#19172B;stroke:#a560fb;stroke-width:13;}
+		.st38{fill:none;stroke:#a560fb;stroke-width:8;stroke-linecap:round;}
 		.st39{filter:url(#Adobe_OpacityMaskFilter_00000104684669728321126300000008121870809570874802_);}
 		.st40{mask:url(#mask-4_00000165944389095636032380000018146839708117244037_);}
-		.st41{fill:none;stroke:#5a49a7;stroke-width:11;stroke-linecap:round;stroke-linejoin:bevel;}
+		.st41{fill:none;stroke:#a560fb;stroke-width:11;stroke-linecap:round;stroke-linejoin:bevel;}
 	</style>
 	<g id='Logo'>
 		<g id='Group-3'>

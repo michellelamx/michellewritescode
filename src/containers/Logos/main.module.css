@@ -1,27 +1,15 @@
 .logosWrapper {
-  align-items: center;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 4rem;
-  justify-content: center;
-  /* margin-block-start: 4rem; */
+  width: 100vw;
 
   .logoBox {
     display: flex;
     justify-content: center;
     transition: opacity 0.3s;
-
-    &:hover {
-
-      img {
-        opacity: 0.8;
-      }
-    }
   }
 
   .companyLogo {
-    height: 6rem;
-    max-width: 26rem;
+    height: 4rem;
+    max-width: 20rem;
     width: auto;
   }
 }
