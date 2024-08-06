@@ -1,7 +1,7 @@
 header {
   background: var(--color-header-bg);
   box-shadow: 0 0.8rem 3.2rem 0 var(--color-header-bg);
-  backdrop-filter: blur( 0.5rem );
+  backdrop-filter: blur(0.5rem);
   font-family: var(--monospace-font);
   height: 6rem;
   position: fixed;
@@ -49,7 +49,7 @@ header {
       padding: 0;
     }
 
-    li + li {
+    li+li {
       margin-inline-start: 3.2rem;
     }
 

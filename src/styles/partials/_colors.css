@@ -1,22 +1,14 @@
 :root {
-  --color-white: hsl(0, 0%, 100%);
   --color-bg-primary: hsl(246, 30%, 13%);
-  --color-bg-secondary: hsl(244, 29%, 23%);
-  --color-bg--active: hsl(250, 33%, 25%);
-  --color-images-primary: hsl(245, 24%, 21%);
   --color-text-primary: hsl(276, 82%, 89%);
   --color-text-secondary: hsl(277, 13%, 73%);
-  --color-accent-primary: hsl(266, 68%, 56%);
-  --color-accent-secondary: hsl(267, 95%, 76%);
-  --color-accent-tertiary: hsl(307, 100%, 50%);
-  --color-border-primary: hsl(240, 5%, 18%);
   --color-header-bg: hsla(250, 33%, 25%, 0.3);
   --color-link-primary: hsl(271, 100%, 94%);
-  --color-link-primary--hover: var(--color-accent-secondary);
-  --color-link--active: var(--color-accent-secondary);
-  --color-page-title: hsl(244, 29%, 23%);
+  --color-link-primary--hover: hsl(267, 95%, 76%);
+  --color-link--active: hsl(267, 95%, 76%);
+  --color-page-title: hsl(267, 95%, 76%);
   --color-quote-border: hsl(267, 95%, 68%);
-  --color-modal-bg: hsl(240, 5%, 18%);
+  /* --color-modal-bg: hsl(240, 5%, 18%); */
 }
 
 /*
@@ -33,3 +25,7 @@
 #bc88fc
 #8543db
 */
+/* --color-accent-primary: hsl(266, 68%, 56%); */
+/* --color-accent-secondary: hsl(267, 95%, 76%); */
+/* --color-accent-tertiary: hsl(307, 100%, 50%); */
+/* --color-border-primary: hsl(240, 5%, 18%); */

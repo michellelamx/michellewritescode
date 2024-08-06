@@ -157,7 +157,7 @@ section[data-parent='skills'] {
 }
 
 h1.page-title {
-  color: var(--color-accent-secondary);
+  color: var(--color-page-title);
   font-family: var(--montserrat-font);
   font-size: 20rem;
   font-weight: 800;

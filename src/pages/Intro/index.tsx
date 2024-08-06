@@ -15,9 +15,6 @@ export const Intro = () => {
     '/bg/bg-10.png',
     '/bg/bg-11.png',
     '/bg/bg-12.png',
-    '/bg/bg-13.png',
-    '/bg/bg-14.png',
-    '/bg/bg-15.png',
   ]
 
   useEffect(() => {
